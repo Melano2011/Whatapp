@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Whatapp/static/css/main.b112c1dd.css",
-    "main.js": "/Whatapp/static/js/main.87e12a89.js",
+    "main.js": "/Whatapp/static/js/main.74c1f308.js",
     "static/js/787.8e5dd3da.chunk.js": "/Whatapp/static/js/787.8e5dd3da.chunk.js",
     "static/media/pic.png": "/Whatapp/static/media/pic.a6143582309785dca610.png",
     "index.html": "/Whatapp/index.html",
     "main.b112c1dd.css.map": "/Whatapp/static/css/main.b112c1dd.css.map",
-    "main.87e12a89.js.map": "/Whatapp/static/js/main.87e12a89.js.map",
+    "main.74c1f308.js.map": "/Whatapp/static/js/main.74c1f308.js.map",
     "787.8e5dd3da.chunk.js.map": "/Whatapp/static/js/787.8e5dd3da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b112c1dd.css",
-    "static/js/main.87e12a89.js"
+    "static/js/main.74c1f308.js"
   ]
 }
