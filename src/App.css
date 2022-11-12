@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .main {
+  background: linear-gradient(to bottom,#1fa855 0%,#1fa855 10%, #ede7dc 10%, #ede7dc 100%);
+  height: 100vh;
+}
+.loginwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formwrapper {
+  width: 50%;
+  height: 60%;
+  background-color: rgb(255, 255, 255) ;
+  border-radius: 50px;
+}
+.title {
+  text-align: center;
+  font-size: large;
+  color: #1fa855;
+  border-bottom: 1px solid gray;
+  padding: 20px 0px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form input {
+  width: 40%;
+}  */
