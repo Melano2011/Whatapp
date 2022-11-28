@@ -62,19 +62,23 @@ const Search = () => {
         }
     }
     const handleKey = e=>{
-        e.code==="Enter" &&handleSearch();
+        e.preventDefault();
+        handleSearch();
     }
     return ( 
         <div className="search">
             <div className="searcharea">
+            <form onSubmit={handleKey}>
                 <div className="searchcontainer">
                  <BsSearch className='searchicon'/>
+                 
                 <input type="text" name="search" id="searchbar" placeholder='Search or start new chat' autoComplete="off"
                 onChange={(e)=>setUsername(e.target.value)}
-                onKeyDown={handleKey}
                 />
+               
                 <AiOutlineClose style={{fontSize:"20px", color:"gray"}}/>
                 </div>
+                </form>
             </div>
            
            {user && <div className="found" style={{cursor:'pointer'}} onClick={handleSelect}>
